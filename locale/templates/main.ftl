@@ -10,7 +10,7 @@ project-brand = Firefox Accounts
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
 -brand-name-google = Google
--brand-name-apple = Apple
+-brand-name-apple = Applefdsa
 -brand-name-pocket = Pocket
 
 # The following are not terms because they are not used directly in messages,
@@ -20,7 +20,7 @@ brand-name-google-play = { -brand-name-google } Play Store
 brand-name-apple-app-store = App Store
 
 document =
-  .title = Firefox Accounts
+  .title = Firefox Accountsfdsa
 
 ## General aria-label
 
