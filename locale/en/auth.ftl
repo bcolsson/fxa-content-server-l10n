@@ -6,7 +6,7 @@
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
--brand-firefox = Firefox
+-brand-firefox = Firefoxfdsa
 
 # "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
 -product-firefox-accounts = Firefox accounts

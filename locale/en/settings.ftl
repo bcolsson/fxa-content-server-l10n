@@ -31,7 +31,7 @@ alert-bar-close-message = Close message
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+product-firefox-relay = Firefox Relayfdas
 
 ##
 
