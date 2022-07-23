@@ -24,3 +24,14 @@ jobs:
       - name: Lint reference
         run: |
           moz-fluent-lint ./locale/en --config .github/linter_config.yml
+      - name: Check for unchanged IDs
+        run: |
+          if [ "$GITHUB_EVENT_NAME" == "pull_request" ]; then
+              mkdir old && mkdir new
+              diff=$( git diff --name-only ${{ github.event.pull_request.base.sha }} $GITHUB_SHA )
+              for file in $diff; do
+                git show ${{ github.event.pull_request.base.sha }}:$file > old/$file
+                git show $GITHUB_SHA:$file > new/$file
+              done
+              python ./.github/scripts/unchanged-ids/fluent.syntax/parse_messages_terms_to_dict.py old new
+          fi
