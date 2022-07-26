@@ -49,7 +49,7 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = You’re receiving this email because { $email } has a { -product-firefox-account } and you signed up for { $productName }.
 # Variables:
-#  $email (String) - A user's primary email address
+#  $email (String) - A user's primary email addressfdsafdsa
 subplat-explainer-reminder-form = You’re receiving this email because { $email } has a { -product-firefox-account }.
 subplat-explainer-multiple = You’re receiving this email because { $email } has a { -product-firefox-account } and you have subscribed to multiple products.
 subplat-explainer-was-deleted = You’re receiving this email because { $email } was registered for a { -product-firefox-account }.
@@ -93,10 +93,10 @@ automated-email = This is an automated email; if you received it in error, no ac
   For more information, please visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-plaintext = This is an automated email; if you received it in error, no action is required.
 
-automated-email-support = { automated-email-plaintext } For more information, please visit <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } Support</a>.
+automated-email-support = { automated-email-plaintext } For more information, please visit <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } Support</a>.fdsafdsa
 # Variables:
-#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-automated-email-support-plaintext = { automated-email-plaintext } For more information, please visit { -brand-mozilla } Support: { $mozillaSupportUrl }.
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.orgfdsafdsa
+automated-email-support-plaintext = { automated-email-plaintext } For more information, please visit { -brand-mozilla } Support: { $mozillaSupportUrl }.fdsafdsa
 
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = This is an automated email; if you did not authorize this action, then please change your password:
